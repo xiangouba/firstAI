@@ -1,0 +1,11 @@
+spring:
+    application:
+      name: ai
+    ai:
+      openai:
+        api-key: sk-of-JZMSRCnOzdsKazsnJmXkxnzrOlXfDaBFZSvWNXqGMveKZyfPCOtdqmwJEdmhWQVA
+        base-url: https://api.openai.com/v1
+        chat:
+          options:
+            model:
+            temperature:
