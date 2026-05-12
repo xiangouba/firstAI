@@ -1,11 +1,13 @@
 spring:
-    application:
-      name: ai
-    ai:
-      openai:
-        api-key: sk-of-JZMSRCnOzdsKazsnJmXkxnzrOlXfDaBFZSvWNXqGMveKZyfPCOtdqmwJEdmhWQVA
-        base-url: https://api.openai.com/v1
-        chat:
-          options:
-            model:
-            temperature:
+  ai:
+    openai:
+      api-key: sk-f187434d640b4c98858124d46d0342de
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+server:
+  8080
+logging:
+  level:
+    org.springframework.ai: DEBUG
