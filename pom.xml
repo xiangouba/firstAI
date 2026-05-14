@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>ai</artifactId>
+    <artifactId>firstAI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ai</name>
     <description>ai</description>
@@ -81,6 +81,13 @@
             <groupId>org.apache.pdfbox</groupId>
             <artifactId>pdfbox</artifactId>
             <version>3.0.3</version>
+        </dependency>
+
+        <!-- Spring Boot Test Starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <!-- 注释掉的 Alibaba 相关依赖（按需启用） -->
